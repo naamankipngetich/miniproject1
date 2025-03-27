@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wildlife Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #4CAF50; /* Green background */
+                color: white; /* White text color for contrast */
+            }
+    
+            img {
+                display: block;
+                margin: 20px auto;
+            }
+    
+            nav {
+                background-color: #333;
+                padding: 15px;
+                text-align: center;
+                display: flex; /* Use flexbox for alignment */
+                justify-content: center; /* Center the items */
+                align-items: center; /* Align items vertically */
+            }
+    
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                padding: 10px 15px;
+                transition: background-color 0.3s;
+            }
+    
+            nav a:hover {
+                background-color: #575757;
+            }
+    
+            .dropdown {
+                margin-left: 15px; /* Space between links and dropdown */
+            }
+    
+            #animalselect {
+                padding: 10px;
+                background-color: #333; /* Match the nav background */
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+    
+            article {
+                max-width: 800px;
+                margin: 20px auto;
+                background: white;
+                color: black; /* Black text for article content */
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+    
+            td {
+                vertical-align: top;
+                padding: 10px;
+            }
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+    
+            h1 {
+                color: #333;
+            }
+    
+            p {
+                line-height: 1.6;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+        <head>
+            <img src="https://github.com/naamankipngetich/miniproject1/blob/main/wildlifge%20logo.png?raw=true" height="300px" width="300px">
+            </head>
+            <body>
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="about us.html">About Us</a>
+                    <a href="get involved.html">Get Involved</a>
+                    <div class="dropdown">
+                        <select onchange="location = this.value;">
+                            <option value="">Animals</option>
+                            <option value="cheetah.html">Cheetah</option>
+                            <option value="wathog.html">Warthog</option>
+                            <option value="elephant.html">Elephant</option>
+                            <option value="jackal.html">Jackal</option>
+                            <option value="fox.html">Fox</option>
+                            <option value="dikdik.html">Dikdik</option>
+                            <option value="hyena.html">Hyena</option>
+                            <option value="white belly bird.html">White Belly Bird</option>
+                        </select>
+                    </div>
+                </nav>
+        <article>
+            <table>
+                <tr>
+                    <td>
+                       <img src="https://github.com/naamankipngetich/miniproject1/blob/main/fox.jpg?raw=true" height="1000px" width="1000px">
+                    </td>
+                    <p>
+                    <td>
+                        <b>Bat-eared foxes<br></b>
+                       The bat-eared fox is another Kenyan animal that belongs to the dog family. Its large ears are its defining characteristic. It also feeds on insects like termites, lives alone or in smal groups, and has six more teeth than other foxes.
+                        The bat-eared fox can be found in savannahs, arid scrublands, and grassy plains. It lives in countries including Kenya, Tanzania, South Africa,Angola,and Zimbabwe.The IUCN lists the bat-eared fox as least concern and as having a stable population,though they are threatened by hunters, disease, and drought.
+                        
+                    </td>
+                    </p>
+                </tr>
+            </table>
+        </article>
+    </body>
+</html>
